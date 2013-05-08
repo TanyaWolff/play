@@ -17,8 +17,6 @@ https://TanyaWolff@github.com/TanyaWolff/play.git by:
 git remot set-url origin https://TanyaWolff@github.com/TanyaWolff/play.git
 Then when I did a git push, it prompted for password (my github account pw).
 And the push was successful!
-So 2 questions:
-1 Now how do I do a silent push, without prompting for pw?
+Oops, spoke too soon.
+I followed the guidelines at https://help.github.com/articles/using-ssh-over-the-https-port to force ssh over 443
 
-2 If I made a new account on github with user tanya, would I be able to remove
-the user in the url, since I am su - tanya in bash?
